@@ -1,0 +1,31 @@
+{
+  "name": "log_watcher",
+  "version": "1.0.0",
+  "description": "watches logs and emits appropriate events",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-sharathkuchal:sharathkuchal/log_watcher.git"
+  },
+  "keywords": [
+    "log",
+    "watcher",
+    "event",
+    "emitter",
+    "express",
+    "node"
+  ],
+  "author": "kuchalakanthi sharath chandra",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^8.11.0",
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "winston": "^3.8.1"
+  }
+}
